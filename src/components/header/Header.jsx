@@ -16,31 +16,31 @@ function Header() {
       <HeaderDiv>
         <LogoTitle>
           <Logo />
-          <Title> FEWD Hometask 2</Title>
+          <Title>FWD Homework</Title>
         </LogoTitle>
         {!authService.isAuthorized() ? (
           <>
             <LoginOrRegister>
-              <NavLink to="/">
+              <NavLink style={{ textDecoration: 'none' }} to="/">
                 <Home>Home</Home>
               </NavLink>
-              <NavLink to="/login">
+              <NavLink style={{ textDecoration: 'none' }} to="/login">
                 <Login>Login</Login>
               </NavLink>
-              <NavLink to="/register">
+              <NavLink style={{ textDecoration: 'none' }} to="/register">
                 <Register>Register</Register>
               </NavLink>
             </LoginOrRegister>
           </>
         ) : (
           <LoginOrRegister>
-            <NavLink to="/">
+            <NavLink style={{ textDecoration: 'none' }} to="/">
               <Home>Home</Home>
             </NavLink>
-            <NavLink to="/home">
+            <NavLink style={{ textDecoration: 'none' }} to="/home">
               <Home>View Users</Home>
             </NavLink>
-            <NavLink to="/" onClick={handleLogout}>
+            <NavLink style={{ textDecoration: 'none' }} to="/" onClick={handleLogout}>
               <Logout>Logout</Logout>
             </NavLink>
           </LoginOrRegister>

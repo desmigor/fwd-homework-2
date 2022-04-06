@@ -8,7 +8,7 @@ function Home() {
     <div>
       <Header />
       <WelcomePage />
-      <Welcome>Welcome! </Welcome>
+      <Welcome>Welcome to VANS</Welcome>
       <Footer />
     </div>
   )

@@ -1,16 +1,16 @@
 import styled, { createGlobalStyle } from 'styled-components'
 
-export default createGlobalStyle`
+export default createGlobalStyle `
   @import url('https://fonts.googleapis.com/css?family=Roboto');
 `
 
-export const Label = styled.label`
+export const Label = styled.label `
   font-family: Roboto, sans-serif;
   font-size: 11pt;
 `
 
-export const ForgotPass = styled.legend`
-  color: purple;
+export const ForgotPass = styled.legend `
+  color: #008B3D;
   font-family: Roboto, sans-serif;
   font-weight: bold;
   font-style: normal;
@@ -19,22 +19,21 @@ export const ForgotPass = styled.legend`
   text-align: left;
 `
 
-export const Card = styled.div`
+export const Card = styled.div `
   background: #ffffff;
   border-radius: 20px;
-  border: 1px solid grey;
+  border: 1px solid #008B3D;
   box-sizing: border-box;
-  box-shadow: 5px 5px 10px 5px #e6cfc0;
   height: 529px;
   margin: 6rem auto 8.1rem auto;
   width: 372px;
 `
 
-export const CardContent = styled.div`
+export const CardContent = styled.div `
   padding: 12px 44px;
 `
 
-export const CardTitle = styled.div`
+export const CardTitle = styled.div `
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -43,11 +42,11 @@ export const CardTitle = styled.div`
   text-align: center;
   padding-bottom: 23px;
   padding-top: 13px;
-  color: purple;
+  color: #008B3D;
 `
 
-export const LoginBtn = styled.input`
-  background: blueviolet;
+export const LoginBtn = styled.input `
+  background: #008B3D;
   border: none;
   border-radius: 20px;
   cursor: pointer;
@@ -60,8 +59,8 @@ export const LoginBtn = styled.input`
   width: 100%;
 `
 
-export const SignupBtn = styled.input`
-  background: purple;
+export const SignupBtn = styled.input `
+  background: #008B3D;
   border: none;
   border-radius: 20px;
   cursor: pointer;
@@ -74,25 +73,25 @@ export const SignupBtn = styled.input`
   width: 100%;
 `
 
-export const Form = styled.form`
+export const Form = styled.form `
   align-items: flex-start;
   display: flex;
   flex-direction: column;
 `
 
-export const FormContent = styled.input`
+export const FormContent = styled.input `
   background: #ffffff;
   outline: none;
   padding-top: 14px;
-  border: 1px solid gray;
+  border: 1px solid #008B3D;
   border-radius: 10px;
   width: 100%;
   height: 25px;
 `
 
-export const WelcomePage = createGlobalStyle`
+export const WelcomePage = createGlobalStyle `
   body {
-    background: purple;
+    background: white;
     height: 100%;
     width: 100%;
     display: flex;
@@ -109,15 +108,15 @@ export const WelcomePage = createGlobalStyle`
   }
 `
 
-export const Welcome = styled.div`
-  color: white;
+export const Welcome = styled.div `
+  color: #008B3D;
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: xxx-large;
 `
 
-export const HomeInfo = styled.div`
+export const HomeInfo = styled.div `
   padding-top: 750px;
   padding-bottom: 100px;
   width: 100%;

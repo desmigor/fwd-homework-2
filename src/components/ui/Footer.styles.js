@@ -1,10 +1,11 @@
 import styled, { createGlobalStyle } from 'styled-components'
 
-export default createGlobalStyle`
+export default createGlobalStyle `
   @import url('https://fonts.googleapis.com/css?family=Roboto');
 `
 
-export const FooterDiv = styled.div`
+export const FooterDiv = styled.div `
+  border-top: 1px solid #008B3D;
   position: fixed;
   bottom: 0;
   right: 0;
@@ -16,8 +17,8 @@ export const FooterDiv = styled.div`
   justify-content: center;
 `
 
-export const Email = styled.div`
-  color: purple;
+export const Email = styled.div `
+  color: #008B3D;
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: bold;

@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div>
       <FooterDiv>
-        <Email> o.okonicha@innopolis.university </Email>
+        <Email> i.mpore@innopolis.university </Email>
       </FooterDiv>
     </div>
   )
